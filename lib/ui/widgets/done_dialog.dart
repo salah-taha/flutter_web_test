@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:regestration_form/models/user_model.dart';
 import 'package:regestration_form/pallete.dart';
 
 class DoneDialog extends StatelessWidget {

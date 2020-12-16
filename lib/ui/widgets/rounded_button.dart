@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:regestration_form/pallete.dart';
 
 class RoundedButton extends StatelessWidget {
   final Function onPressed;
@@ -45,36 +44,3 @@ class RoundedButton extends StatelessWidget {
     );
   }
 }
-
-//  MaterialButton(
-//       onPressed: onPressed,
-//       child: label,
-//       color: color ?? Pallete.green,
-//       minWidth: width,
-//       height: height,
-//       shape: RoundedRectangleBorder(
-//         borderRadius: BorderRadius.circular(40.0),
-//         side: BorderSide.none,
-//       ),
-//     )
-
-// ButtonTheme(
-//       minWidth: width,
-//       height: height ?? 36.0,
-//       child: Padding(
-//         padding: const EdgeInsets.symmetric(horizontal: 130.0),
-//         child: RaisedButton.icon(
-//           padding: EdgeInsets.all(10),
-//           icon: icon,
-//           label: label,
-//           onPressed: onPressed,
-//           elevation: 0,
-//           color: color ?? Pallete.green,
-//           textColor: Pallete.light,
-//           shape: RoundedRectangleBorder(
-//             borderRadius: BorderRadius.circular(40.0),
-//             side: BorderSide.none,
-//           ),
-//         ),
-//       ),
-//     );
